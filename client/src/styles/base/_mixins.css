@@ -1,0 +1,31 @@
+@define-mixin atSmall {
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atMedium {
+  @media (min-width: 800px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atLarge {
+  @media (min-width: 1010px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@define-mixin effetsSpeciaux {
+  box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.2),
+    2px 2px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}

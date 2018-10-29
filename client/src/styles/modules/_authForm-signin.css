@@ -1,0 +1,47 @@
+.authForm-signin{
+    position: relative;
+    left: 300px;
+    width: 500px;
+    border-radius: 12px;
+    color: #FFF ;
+    font-size: 1.1rem;
+    @mixin clearfix;
+    button{
+        background-color: rgba(88, 48, 21, 0.8);
+        float: right;
+        width: 120px;
+        color: #FFF ;
+        padding: .7rem;
+        margin: 1rem 0 0 0;
+        border: 5px rgba(78, 41, 41, 0.7) solid;
+        border-radius: 12px;
+    }
+   
+    button:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+    .erreurMessage{
+        color: #b31313;
+        text-align: center;
+    }
+    fieldset {
+        border-radius: 12px;
+        background-color: rgba(88, 48, 21, 0.8);   
+            padding: .8rem 0;
+            label{  
+                padding: 0 8rem 0 2rem;
+                span{
+                    margin-right: -2rem;
+                }
+            }
+    
+    }
+    &__field {
+        width: 150px;
+        
+      }  &__field:focus{
+        transform: scale(1.8);
+        font-size: .7rem;
+      }
+}

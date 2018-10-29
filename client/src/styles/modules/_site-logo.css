@@ -1,0 +1,16 @@
+.site-logo{
+    position: absolute;
+    left: 3px;
+    color: rgb(255, 255, 255, .8);
+    font-weight: 800;
+    text-align: center;
+    width: 130px; 
+    height: 130px;
+    background-color: rgba(85, 41, 12, 0.9);
+    /* background-color: rgb(54, 73, 51); */
+    /* border-radius: 60px; */
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: 1rem 1.3rem;
+    box-shadow: inset 7px 6px 6px rgba(183, 194, 181, 0.9), 7px 6px 6px rgba(183, 194, 181, 0.9);
+}

@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color:#abb4acd0;
+    img{
+      max-width: 100%;
+      height: auto; 
+     }
+     *{
+      box-sizing: border-box;
+     }
+     
+    a{
+      color: $monorange;
+    }
+  }

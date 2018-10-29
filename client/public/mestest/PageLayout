@@ -1,0 +1,80 @@
+<div className="container">
+        <div className="entete">
+          <h1>Partie Titre Du Site</h1>
+          <p>Le slogan du va se trouver ici</p>
+        
+        <nav className="navigationSite">
+          <ul class="group">
+            <li>
+              <a href="#">Accueil</a>
+            </li>
+            <li>
+              <a href="#">AboutUs</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Aide</a>
+            </li>
+          </ul>
+        </nav>
+        </div>
+        <div className="zoneContenu group">
+          <div className="contenuPrincipal">
+            <h2>Zone Principale</h2>
+            <p>
+              On sait depuis longtemps que travailler avec du texte lisible et
+              contenant du sens est source de distractions, et empêche de se
+              concentrer sur la mise en page elle-même. L'avantage du Lorem
+              Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.'
+              est qu'il possède une distribution de lettres plus ou moins
+              normale, et en tout cas comparable avec celle du français standard
+            </p>
+            <p>
+              On sait depuis longtemps que travailler avec du texte lisible et
+              contenant du sens est source de distractions, et empêche de se
+              concentrer sur la mise en page elle-même. L'avantage du Lorem
+              Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.'
+              est qu'il possède une distribution de lettres plus ou moins
+              normale, et en tout cas comparable avec celle du français standard
+            </p>
+            <p>
+              On sait depuis longtemps que travailler avec du texte lisible et
+              contenant du sens est source de distractions, et empêche de se
+              concentrer sur la mise en page elle-même. L'avantage du Lorem
+              Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.'
+              est qu'il possède une distribution de lettres plus ou moins
+              normale, et en tout cas comparable avec celle du français standard
+            </p>
+            <p>
+              On sait depuis longtemps que travailler avec du texte lisible et
+              contenant du sens est source de distractions, et empêche de se
+              concentrer sur la mise en page elle-même. L'avantage du Lorem
+              Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.'
+              est qu'il possède une distribution de lettres plus ou moins
+              normale, et en tout cas comparable avec celle du français standard
+            </p>
+          </div>
+          <div className="barreLaterale">
+            <h3>Partie Latérale</h3>
+            <p>
+              {" "}
+              De nombreuses suites logicielles de mise en page ou éditeurs de
+              sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et
+              une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux
+              sites qui n'en sont encore qu'à leur phase de construction
+            </p>
+            <p>
+              {" "}
+              De nombreuses suites logicielles de mise en page ou éditeurs de
+              sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et
+              une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux
+              sites qui n'en sont encore qu'à leur phase de construction
+            </p>
+          </div>
+        </div>
+        <div className="footer">
+          <p>&copy; 2018 Ici se trouve le footer</p>
+        </div>
+      </div>

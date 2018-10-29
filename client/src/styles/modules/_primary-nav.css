@@ -1,0 +1,35 @@
+.primary-nav{
+    &--pull-right{
+        float: right;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        @mixin clearfix;
+    }
+    
+    li{
+        margin: .7rem .3rem 0 0;
+        list-style-type: none;
+        float: left;
+        margin-right: 
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        padding: .8rem 1.5rem;
+        background-color: rgb(75, 97, 71);
+        box-shadow: 7px 6px 6px rgba(183, 194, 181, 0.9);
+        font-size: 1.1rem;
+        color: #c7d4cb;
+        transition: all 3s;
+        font-weight: 600;
+        border-radius: 10px;
+      
+    }
+    a:hover{
+        background-color: #b85514;
+        color: rgb(14, 32, 11);
+        transform: scale(.8);
+    }
+}

@@ -1,0 +1,53 @@
+ <p>
+          Champs pour le choisir entre un ensemble
+          d'options:Select(dropdown),Radio,Checkbox
+        </p>
+        <p>Pour séléctionner une ou plusieurs options: les Input Checkbox </p>
+        <p>Séléction d'une seule option: les élements Input Select ou Radio </p>
+        <p>
+          Une sugestion est d'utiliser le Select input quand le user sait ce
+          qu'il cherche et qu'il hésite à choisir sur une liste large
+          d'options(liste de pays, couleur etc ...) et le select avec sa liste
+          déroulante prend moins d'espace tout en contenant une large liste de
+          données
+        </p>
+        <p>
+          Utiliser les inputs Radio quand le choix est limité et peu grand et du
+          coup on a besoin de moins d'espace à l'ecran pour afficher les
+          données. Ou si la décision est plus importante pour le choix, dans ce
+          cas le input radio est plus important car il permet au user de faire
+          un choix en connaissance de cause et d'être de ce qu'il n'a choisi et
+          de voir les options qu'il a exclus en choisissant les choix fait
+        </p>
+        <label for="couleurFavori">Votre couleur favori</label>
+        &nbsp;
+        <select id="couleurFavori" name="couleurFavori">
+          <option value="jaune">Jaune</option>
+          <option value="blanc">Blanc</option>
+          <option value="rouge">Rouge</option>
+        </select>{" "}
+        <br />    
+        <br />
+        <p>choix multiple avec select element avec le choix d'une seule option</p>
+        <fieldset>
+          <legend>Votre choix de soins?</legend>&nbsp;
+            <input type="radio" id="domicile" name="choixSoins" value="soin1"/>
+            <label for="domicile">Domicile</label>
+            <input type="radio" id="maisonRepos" name="choixSoins" value="soin2"/>
+            <label for="maisonRepos">Maison repos</label>
+            <input type="radio" id="structureMedicale" name="choixSoins" value="soin3"/>
+            <label for="structureMedicale">Structure Médicale</label>
+          
+        </fieldset>
+        <br />    
+        <br />
+        <p>choix multiple avec checkbox element qui permet de choisir plus d'options</p>
+        <fieldset>
+          <legend>Votre choix de soins?</legend>&nbsp;
+            <input type="checkbox" id="domicile" name="choixSoins" value="soin1"/>
+            <label for="domicile">Domicile</label>
+            <input type="checkbox" id="maisonRepos" name="choixSoins" value="soin2"/>
+            <label for="maisonRepos">Maison repos</label>
+            <input type="checkbox" id="structureMedicale" name="choixSoins" value="soin3"/>
+            <label for="structureMedicale">Structure Médicale</label>
+        </fieldset>

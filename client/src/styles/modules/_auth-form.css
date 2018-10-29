@@ -1,0 +1,37 @@
+.authForm{
+    position: relative;
+    left: 300px;
+    width: 500px;
+
+    color: #FFF ;
+    font-size: 1.1rem;
+    @mixin clearfix;
+    button{
+        background-color: rgba(7, 6, 6, .7) ;
+        float: right;
+        width: 120px;
+        color: #FFF ;
+        padding: .7rem;
+        margin: 1rem 0 0 0;
+        border: 5px rgba(53, 71, 50, .5) solid;
+    }
+   
+    button:hover{
+        cursor: pointer;
+    }
+    .erreurMessage{
+        color: #b31313;
+        text-align: center;
+    }
+    fieldset {
+
+            background-color: rgba(78, 41, 41, 0.7) ;
+            label{  
+                padding-right: 4rem;
+                span{
+                    margin-right: -2rem;
+                }
+            }
+    
+    }
+}
