@@ -1,0 +1,24 @@
+ <form>
+          <p>Input type Text</p>
+          <label for="nom">Nom: </label>
+          <input id="nom" type="text" name="nom" />
+          <br />
+          <label for="prenom">
+            Prenom: <input id="prenom" type="text" name="prenom" />
+          </label>
+          <p>Input type Email et Téléphone:</p>
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email" />
+          <br />
+          <br />
+          <label for="telephone">Telephone: </label>
+          <input type="tel" id="telephone" name="telephone" />
+          <br />
+          <br />
+          <p>Champ pour taper un messag:</p>
+          <label for="textarea">Votre message:</label> <br />
+          <br />
+          <textarea id="textarea" name="textarea" /> <br />
+          <br />
+          <input type="submit" value="GO!" />
+        </form>

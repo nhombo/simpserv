@@ -1,0 +1,43 @@
+      <h1>List de courses</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Nom produit</th>&nbsp;
+              <th>Position Rayon</th>&nbsp;
+              <th>Prix</th>&nbsp;&nbsp;
+              <th>Quantité</th>&nbsp;
+            </tr>
+          </thead>
+          <tr>
+            <td>Riz</td>&nbsp;
+            <td>KL</td>&nbsp;
+            <td>4.2€</td>&nbsp;
+            <td>500g</td>&nbsp;
+          </tr>
+          <tr>
+            <td>Farine</td>&nbsp;
+            <td>C1</td>&nbsp;
+            <td>2.5€</td>&nbsp;
+            <td>1kg</td>&nbsp;
+          </tr>
+          <tr>
+            <td>Sucre</td>&nbsp;
+            <td>LD</td>&nbsp;
+            <td>2.5€</td>&nbsp;
+            <td>1kg</td>&nbsp;
+          </tr>
+          <tr>
+            <td>Pates</td>&nbsp;
+            <td>DD</td>&nbsp;
+            <td>3.7€</td>&nbsp;
+            <td>5kg</td>&nbsp;
+          </tr>
+          <tfoot>
+            <tr>
+              <td>Tous</td>&nbsp;
+              <td>N/A</td>&nbsp;&nbsp;
+              <td>Total</td>&nbsp;
+              <td>N/A</td>&nbsp;
+            </tr>
+          </tfoot>
+        </table>
